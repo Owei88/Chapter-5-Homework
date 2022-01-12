@@ -9,6 +9,10 @@ public class Grade {
         double roundedGPA = scaleGrade * 10;
         roundedGPA = Math.round(roundedGPA);
         roundedGPA = roundedGPA / 10;
+        /**
+        * roundedGPA is based on what value it is above and prints based on that
+        * @param roundedGPA the input rounded up to the nearest tens place
+        */
         if (roundedGPA == 4.0){
             System.out.println("A");
         } else if (roundedGPA >= 3.7){
